@@ -1,25 +1,10 @@
----
-layout: default
-published: true
----
-
-<div class="help">
-  <h1>Helping</h1>
-
-  <div class='articles'>
-    {% for item in site.categories.articles limit:40 offset:0 %}
-      <a class="article" href="{{site.root_dir}}{{item.url}}">
-        {% if item.image %}
-          <img src="{{item.image}}" width="200" height="100"/>
-        {% endif %}
-
-        <div class="title">
-          {{item.title}}
-        </div>
-        <div class="descr">
-          {{item.descr}}
-        </div>
-      </a>
-    {% endfor %}
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shatler Test page</title>
+</head>
+<body>
+  <h1>Page</h1>
+</body>
+</html>
